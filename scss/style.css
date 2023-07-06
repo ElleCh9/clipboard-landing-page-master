@@ -35,12 +35,12 @@ header .mac {
   box-shadow: 1px 4px 2px hsl(233, 100%, 69%);
 }
 
-@media screen and (min-width: 1064) {
+@media screen and (min-width: 1064px) {
   header p {
     align-self: center;
     width: 45%;
   }
-  header .btn-group elemento {
+  header .btn-group {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -69,6 +69,9 @@ body .img-wrapper {
   gap: 5rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+body .img-mobile {
+  width: 100%;
 }
 
 h2,
@@ -138,12 +141,22 @@ main {
     gap: 1rem;
     justify-items: center;
   }
+  body .btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
 }
 footer {
   margin-top: 6rem;
   display: flex;
   flex-direction: column;
   background-color: hsla(201, 11%, 66%, 0.5);
+}
+footer .sub-flex {
+  display: flex;
+  flex-direction: column;
 }
 footer a {
   text-decoration: none;

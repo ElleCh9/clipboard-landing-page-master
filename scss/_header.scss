@@ -34,19 +34,18 @@ header{
         box-shadow: 1px 4px 2px $light-blue;
     }
 }
-@media screen and (min-width:1064) {
+@media screen and (min-width:1064px) {
     header{
         p{
             align-self: center;
             width: 45%;
         }
         .btn-group{
-            elemento {
                 display: flex;
-               flex-direction: row;
+                flex-direction: row;
                 justify-content: center;
                 gap: 1rem;
-            }
+            
         }
         
     }

@@ -19,6 +19,9 @@ body{
         margin-top: 4rem;
         margin-bottom: 4rem;
     }
+    .img-mobile{
+            width: 100%;
+    }
 }
 h2,
 h3{
@@ -85,6 +88,13 @@ main{
             gap: 1rem;
             justify-items: center;
         }
+        .btn-group{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 1rem;
+        
+    }
     
     }
     
