@@ -1,0 +1,54 @@
+header{
+    display: flex;
+    flex-direction: column;
+    .btn-group{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        margin-top: 1rem;
+        border: none;
+        border-radius: 20px;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        color: white;
+        height: 40px;
+        width: 300px;
+        align-self: center;
+        &:hover{
+            cursor: pointer;
+            opacity: 0.8;
+        }
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        align-self:center;
+    }
+    .ioS{
+        background-color: $strong-cyan;
+        box-shadow: 1px 4px 2px $strong-cyan;
+    }
+    .mac{
+        background-color:$light-blue ;
+        box-shadow: 1px 4px 2px $light-blue;
+    }
+}
+@media screen and (min-width:1064) {
+    header{
+        p{
+            align-self: center;
+            width: 45%;
+        }
+        .btn-group{
+            elemento {
+                display: flex;
+               flex-direction: row;
+                justify-content: center;
+                gap: 1rem;
+            }
+        }
+        
+    }
+    
+}
